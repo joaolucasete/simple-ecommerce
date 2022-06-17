@@ -7,8 +7,8 @@ public class TesteCarrinhoCompras {
     @Test
     public void testeSomaValor()
     {
-        Produto prod1 = new Produto("Notebook", 2000);
-        Produto prod2 = new Produto("Celular", 900);
+        Produto prod1 = new Produto("Notebook", 2000, 1);
+        Produto prod2 = new Produto("Celular", 900, 1);
 
         CarrinhoCompras carrinho = new CarrinhoCompras();
 
