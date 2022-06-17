@@ -2,7 +2,7 @@ public class Produto {
 
     protected String nome;
     protected double valor;
-    protected int quantidade=0;
+    protected int quantidade=1;
 
     public Produto(String nome,double valor)
     {
