@@ -5,7 +5,7 @@ public class Estoque {
 
     List<Produto> produtos = new ArrayList<Produto>();
 
-    public void cadastraProduto(Produto produto, int quantidade)
+    public boolean cadastraProduto(Produto produto, int quantidade)
     {
         boolean achou = false;
         for(int i = 0; i< produtos.size(); i++){
@@ -17,9 +17,11 @@ public class Estoque {
         }
         if(!achou){
             produtos.add(produto);
+            achou = true;
         }
+        return achou;
     }
-    public void retiraProduto(Produto produto, int quantidade)
+    public boolean retiraProduto(Produto produto, int quantidade)
     {
         boolean achou = false;
         for(int i = 0; i< produtos.size(); i++){
@@ -33,8 +35,10 @@ public class Estoque {
                 else
                 {
                     produtos.remove(produto);
+                    achou = false;
                 }
             }
         }
+        return achou;
     }
 }
