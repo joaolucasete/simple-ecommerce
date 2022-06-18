@@ -45,6 +45,10 @@ public class CarrinhoCompras {
         return total;
     }
 
+    public int getQuantidadeProdutos() {
+        return produtos.size();
+    }
+
     public double somaValorDesconto(double total, double desconto) {
         return total - (total * desconto);
     }
