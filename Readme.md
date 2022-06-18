@@ -3,7 +3,7 @@
 [![ecommerce Java CI](https://github.com/joaolucasete/simple-ecommerce/actions/workflows/maven.yml/badge.svg)](https://github.com/joaolucasete/simple-ecommerce/actions/workflows/maven.yml)
 
 
-##Autores:
+## Autores:
 - Matheus Magalhães de Paula Paiva
 - João Lucas da Silva Pereira
 
@@ -23,10 +23,10 @@ Sua documentação pode ser encontrada [aqui](https://docs.oracle.com/en/java/).
 git clone 
 ```
 
-##Detalhes do projeto:
-####Se trata de um sistema de E-commerce simples, contendo uma classe criando os produtos, uma classe com o carrinho de compras e uma classe armazenando o estoque;
-####Para as classes de carrinho de compras e estoque foram gerados testes em seus métodos;
-####Para executar os testes nas classes:
+## Detalhes do projeto:
+#### Se trata de um sistema de E-commerce simples, contendo uma classe criando os produtos, uma classe com o carrinho de compras e uma classe armazenando o estoque;
+#### Para as classes de carrinho de compras e estoque foram gerados testes em seus métodos;
+#### Para executar os testes nas classes:
 ```
 mvn test
 
