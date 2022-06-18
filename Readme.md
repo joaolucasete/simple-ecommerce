@@ -26,6 +26,14 @@ git clone
 ## Detalhes do projeto:
 #### Se trata de um sistema de E-commerce simples, contendo uma classe criando os produtos, uma classe com o carrinho de compras e uma classe armazenando o estoque;
 #### Para as classes de carrinho de compras e estoque foram gerados testes em seus métodos;
+
+#### O código possui as seguintes opções de entrada:
+- 1 para adicionar um produto ao carrinho;
+- 2 para remover o produto do carrinho;
+- 3 listar os produtos;
+- 4 mostrar o preço total
+- 5 sair.
+
 #### Para executar os testes nas classes:
 ```
 mvn test
