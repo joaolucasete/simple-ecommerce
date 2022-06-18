@@ -12,14 +12,6 @@ public class Main {
     public static void main(String[] args) {
         int opcao;
         var marketCar = new CarrinhoCompras();
-        // create a command line with options
-        // 1 - add product to cart
-        // 2 - show cart
-        // 3 - show total
-        // 4 - show total with discount
-        // 5 - exit
-        // 6 - clear cart
-        // 7 - add product to cart with discount
 
         Scanner teclado = new Scanner(System.in);
 
